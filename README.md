@@ -1,6 +1,4 @@
-# Queee Calculator 官方网站
-
-这是Queee Calculator的官方网站，展示AI驱动的个性化计算器的功能和特性。
+# AngryMan 官方网站
 
 ## 网站结构
 
@@ -17,26 +15,19 @@ website/
 └── README.md           # 说明文档
 ```
 
-## 功能特性
+## 产品定位
 
-### 主页 (index.html)
-- 响应式设计，支持移动端和桌面端
-- 产品介绍和核心功能展示
-- AI功能设计师、图像生成工坊等特性介绍
-- 多平台下载链接
-- 现代化UI设计，参考Send To Myself网站风格
+AngryMan 是面向独居女性的安全防护 APP：
+- 通过 AI 变声生成多种强力男性角色声音
+- 一键模拟来电通知与通话场景
+- 支持多参数设置，适配不同风险环境
+- 纯端侧运行，不涉及云端隐私，不收集用户数据
 
-### 隐私政策 (privacy.html)
-- 详细的数据收集和使用说明
-- 用户权利和保护措施
-- 本地存储和云端同步说明
-- 联系方式和投诉渠道
+## 页面内容
 
-### 用户协议 (terms.html)
-- 服务使用条款和条件
-- 知识产权说明
-- 付费服务条款
-- 责任限制和争议解决
+- `index.html`：产品介绍、功能说明、下载入口
+- `privacy.html`：隐私政策（纯端侧、零采集）
+- `terms.html`：服务条款与使用边界
 
 ## 技术特点
 
@@ -46,34 +37,17 @@ website/
 - **SEO优化**: 语义化HTML和meta标签
 - **性能优化**: 压缩图片和优化代码
 
-## 部署说明
+## 部署说明（GitHub Pages）
 
-### GitHub Pages部署
+1. 推送到 `main` 分支后会自动触发 `.github/workflows/deploy.yml`
+2. 在仓库 Settings -> Pages 中选择 `GitHub Actions` 作为 Source
+3. 部署成功后访问：`https://wangying245028-maker.github.io/AngryMan/`
 
-1. 在GitHub仓库设置中启用Pages功能
-2. 选择"GitHub Actions"作为部署源
-3. 网站将自动部署到 `https://[username].github.io/Queee-Calculator/`
+## 本地预览
 
-### 本地开发
-
-1. 克隆仓库到本地
-2. 进入website目录
-3. 使用本地服务器运行（如Python的`python -m http.server 8000`）
-4. 在浏览器中访问 `http://localhost:8000`
-
-## 自定义配置
-
-### 修改联系信息
-在以下文件中更新联系信息：
-- `privacy.html` - 隐私政策联系信息
-- `terms.html` - 用户协议联系信息
-- `index.html` - 页脚联系信息
-
-### 更新下载链接
-在`index.html`的下载区域更新各平台的应用商店链接。
-
-### 修改样式
-编辑`styles.css`文件来自定义网站外观和颜色主题。
+1. 进入网站目录
+2. 使用本地服务器运行（如 `python -m http.server 8000`）
+3. 打开 `http://localhost:8000`
 
 ## 浏览器支持
 
@@ -82,6 +56,6 @@ website/
 - Safari 12+
 - Edge 79+
 
-## 许可证
+## 版权
 
-本网站内容受版权保护，归Queee Calculator所有。
+本网站内容受版权保护，归 AngryMan 所有。
