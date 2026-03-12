@@ -250,6 +250,20 @@ body {
     font-size: 0.92rem;
 }
 
+.footer-contact {
+    margin-top: 0.55rem;
+    color: #f3f4f6;
+}
+
+.footer-contact a {
+    color: #fca5a5;
+    text-decoration: none;
+}
+
+.footer-contact a:hover {
+    text-decoration: underline;
+}
+
 @media (max-width: 768px) {
     .nav-menu {
         display: none;
